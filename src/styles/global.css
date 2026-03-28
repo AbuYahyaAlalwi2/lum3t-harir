@@ -1,0 +1,14 @@
+:root {
+  --gold:#C9A84C; --gold-light:#E8C96A; --gold-dim:#7A6230;
+  --gold-bg:rgba(201,168,76,0.08); --gold-border:rgba(201,168,76,0.22);
+  --navy:#0A0D1A; --navy-2:#0F1525; --navy-3:#161D35; --navy-4:#1E2840;
+  --panel:#111827; --border:rgba(201,168,76,0.15);
+  --text:#E8E4D8; --text-dim:#8A8578; --text-muted:#4A4840;
+  --green:#4CAF82; --red:#E05555; --font:'Tajawal',sans-serif; --mono:'DM Mono',monospace;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:var(--font); background:var(--navy); color:var(--text); height:100vh; overflow:hidden; direction:rtl; }
+::-webkit-scrollbar { width:4px; } ::-webkit-scrollbar-thumb { background:var(--border); border-radius:2px; }
+@keyframes fadeUp { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:none} }
+@keyframes spin { to{transform:rotate(360deg)} }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.5} }
